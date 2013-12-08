@@ -1,0 +1,14 @@
+*.class
+
+# Package Files #
+target
+*.jar
+*.war
+*.ear
+*.idea
+*.iml
+*.ipr
+*.iws
+
+# JRebel related files #
+rebel.xml
