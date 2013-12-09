@@ -12,7 +12,7 @@
     <artifactId>appserver-database</artifactId>
     <packaging>jar</packaging>
 
-    <name>Appserver :: Database Management System</name>
+    <name>AppServer :: Database Management System</name>
     <description>DBMS Module</description>
 
     <dependencies>

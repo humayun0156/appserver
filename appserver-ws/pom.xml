@@ -12,7 +12,7 @@
     <artifactId>appserver-ws</artifactId>
     <packaging>war</packaging>
 
-    <name>Appserver :: RESTful Webservice</name>
+    <name>AppServer :: RESTful Webservice</name>
     <description>Provides a REST API for Appserver</description>
 
     <dependencies>
@@ -66,11 +66,6 @@
         <dependency>
             <groupId>com.google.inject.extensions</groupId>
             <artifactId>guice-multibindings</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.google.inject.extensions</groupId>
-            <artifactId>guice-grapher</artifactId>
         </dependency>
 
         <!--Jersey Test Framework Starts -->

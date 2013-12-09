@@ -12,6 +12,6 @@
     <artifactId>appserver-models</artifactId>
     <packaging>jar</packaging>
 
-    <name>Appserver :: Data Model</name>
+    <name>AppServer :: Data Model</name>
     <description>Contains the model java bean objects.</description>
 </project>
