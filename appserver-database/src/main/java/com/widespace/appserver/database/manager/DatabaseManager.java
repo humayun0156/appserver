@@ -52,37 +52,4 @@ public class DatabaseManager {
         }
         return app;
     }
-
-
-
-
-
-    /*@Transactional
-    public void insertUtil() throws Exception {
-        System.out.println("we are here() method");
-        for (int i = 0; i < 100; i++) {
-            UUID id = UUID.randomUUID();
-            boolean status = new Random().nextBoolean();
-            System.out.println(id + " " + status);
-            insertTable(id.toString(), status);
-        }
-    }
-
-    @Transactional
-    public void insertTable(String uuid, boolean appStatus) {
-        try {
-            AppStatus app = new AppStatus();
-            app.setAppId(uuid);
-            app.setAppStatus(appStatus);
-            System.out.println("hmm");
-            getEntityManager().persist(app);
-            System.out.println("hmm-1");
-            if (logger.isTraceEnabled()) {
-                logger.trace("Successfully inserted. Id : {} , status : {}", app.getAppId(), app.isAppStatus());
-            }
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-
-    }*/
 }

@@ -40,6 +40,7 @@ public class AppServerResource {
             return Response.status(200).entity(app).build();
         } else {
             String message = "There is no entry with id : " + appUUID;
+            logger.trace(message);
             return Response.status(400).entity(message).build();
         }
     }

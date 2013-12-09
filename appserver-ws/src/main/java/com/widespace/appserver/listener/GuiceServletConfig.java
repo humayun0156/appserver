@@ -8,7 +8,6 @@ import com.widespace.appserver.mapping.WidespaceGuiceConfig;
 
 /**
  * @author humayun
- * @version 1.0
  */
 public class GuiceServletConfig extends GuiceServletContextListener {
 
@@ -17,13 +16,7 @@ public class GuiceServletConfig extends GuiceServletContextListener {
         Injector injector = Guice.createInjector(
                 new PersistenceModule(),
                 new WidespaceGuiceConfig()
-                /*new ServiceInitialization(),
-                new WidespaceGuiceConfig(),
-                new ServiceModule(),
-                new HttpGuiceModule(),
-                new TransformationNPBuilderModule(),
-                new TransformationEPiBuilderModule(),
-                new ConfigModule()*/);
+                );
 
 
         return injector;
